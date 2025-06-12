@@ -1,0 +1,30 @@
+img{
+    width: 150px;
+    border-radius: 150px;
+}
+
+body{
+    background-color: rgb(85, 129, 196);
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    color: pink;
+}
+
+a{
+    color: rgb(0, 217, 255);
+    text-decoration: none;
+
+}
+
+li{
+    list-style-type: 📍;
+       
+
+}
+
+li:hover,  a:hover{
+    color: chartreuse;
+}
