@@ -1,6 +1,6 @@
 img{
-    width: 150px;
-    border-radius: 150px;
+    width: 200px;
+    border-radius: 200px;
 }
 
 body{
@@ -20,7 +20,7 @@ a{
 }
 
 li{
-    list-style-type: 📍;
+    list-style-type: :circle;
        
 
 }
