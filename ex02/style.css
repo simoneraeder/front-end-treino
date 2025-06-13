@@ -62,7 +62,8 @@ img{
 }
 
 li{
-    list-style-type: circle;}
+    list-style-type: square;
+}
 
 
 
@@ -72,8 +73,6 @@ a{
 
 }
        
-
-
 
 li:hover,  a:hover{
     color: chartreuse;
