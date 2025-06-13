@@ -42,6 +42,17 @@ section{
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0,0,0,0.25);
 }
+blockquote{
+    font-style: italic;
+    border-left: 4px solid #cc1717;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin: 10px 0;
+   
+}
+cite{
+    font-size: 10px;
+}
 img{
     width: 100px;
     height: 100px;
