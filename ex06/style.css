@@ -49,6 +49,8 @@ table {
 
 body{
     font-family: sans-serif;
+	height: 100vh;
+	position: relative;
 }
 
 a{
@@ -71,6 +73,38 @@ nav{
     color: aliceblue;
    
 }
+
 .nav-link {
     color: rgb(87, 154, 209);
+}
+.flex-container{
+	display: flex;
+	gap: 15px;
+}
+.column{
+	flex-direction: column;
+}
+.center{
+	justify-content: center;
+	align-items: center;
+}
+footer{
+	background-color: rgb(111, 111, 199);
+	width: 100%;
+	position: absolute ;
+	bottom: 0;
+	padding: 15px;
+	color: aliceblue;
+	height: 60px;
+}
+
+footer li a {
+	color: aliceblue;
+	padding: 25px;
+}
+footer p{
+	text-align: center;
+}
+footer p a {
+	color: aliceblue;
 }
