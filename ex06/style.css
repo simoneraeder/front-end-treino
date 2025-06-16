@@ -57,14 +57,14 @@ a{
     text-decoration: none;
 }
 header{
- background-color: blueviolet;
+ background-color: rgb(59, 11, 134);
     color: rgb(235, 232, 241);
     padding: 15px;
 }
 
 nav{
     padding: 15px;
-    background-color: rgb(105, 184, 230);
+    background-color: rgb(117, 164, 218);
     text-align: center;
 }
 .nav-list > li {
@@ -75,10 +75,13 @@ nav{
 }
 
 .nav-link {
-    color: rgb(87, 154, 209);
+    color: rgb(5, 54, 94);
 }
 .flex-container{
 	display: flex;
+	gap: 15px;
+}
+.gap{
 	gap: 15px;
 }
 .column{
@@ -88,19 +91,26 @@ nav{
 	justify-content: center;
 	align-items: center;
 }
+.space-between{
+	justify-content: space-between;
+}
+.grow{
+	flex-grow: 2;
+}
+.margin.top{
+	margin-top: 20px;
+}
 footer{
-	background-color: rgb(111, 111, 199);
-	width: 100%;
-	position: absolute ;
-	bottom: 0;
-	padding: 15px;
+	background-color: rgb(59, 11, 134);
+	padding: 20px 0 20px 0;
 	color: aliceblue;
-	height: 60px;
+	height: 40px;
+	width: 100%;
 }
 
 footer li a {
 	color: aliceblue;
-	padding: 25px;
+	padding: 5px;
 }
 footer p{
 	text-align: center;

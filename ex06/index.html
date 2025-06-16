@@ -6,35 +6,44 @@
     <link rel="stylesheet" href="style.css">
     <title> Curso Front-End</title>
 </head>
-<body>
-    <header>
-        <h1>Simone Raeder</h1>
-        <p>Aluna Front-End</p>
-    </header>
-
-    <nav>
-        <ul class="nav-list">
-            <li> <a class="nav-link" href="#Sobre">Sobre</a>  </li>
-            <li> <a class="nav-link" class="nav-link"  href="#conteudo">Conteúdo</a>
-            </li>
-            <li>
-               <a class="nav-link" target="_blank" href="">Saiba mais</a>
-            </li>
-        </ul>
-    </nav>
-
-   <div class="flex-container">
+<body class="flex-container column space-between">
+    <div>
+        <header>
+            <h1>Firjan Senai - Petrópolis</h1>
+            <p>Curso Front-End</p>
+    
+        </header>
+    
+        <nav>
+            <ul class="nav-list">
+                <li> <a class="nav-link" href="#Sobre">Sobre</a>  </li>
+                <li> <a class="nav-link" class="nav-link"  href="#conteudo">Conteúdo</a>
+                </li>
+                <li>
+                   <a class="nav-link" target="_blank" href="">Saiba mais</a>
+                </li>
+            </ul>
+        </nav>
+    
+    </div>
+   
+   <div class="flex-container gap grow margin-top">
     <div>
         <section id="sobre" class="card">
-            <h2>Sobre </h2>
-            <p>Sou estudante de Front-end e apaixonada por criar interfaces web.</p>
+            <h1>Sobre </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolorem harum, quaerat est beatae magni ipsum suscipit facilis molestias ipsa error veniam saepe voluptatem labore illo aut cumque sunt voluptas.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas incidunt necessitatibus labore harum earum. Suscipit officia aspernatur labore accusamus natus perferendis, obcaecati doloremque incidunt possimus debitis, rem magni fugiat deserunt!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut ipsum soluta quos ea qui at, ex doloremque delectus quam cupiditate dignissimos culpa totam, fugiat perferendis eos eaque consequuntur veritatis alias.
+            </p>
         </section>
         <article id="conteudo" class="card">
             <h1>Conteúdo</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod pariatur quaerat possimus voluptatem voluptates optio odit tempore adipisci, id accusamus consequatur soluta eveniet omnis exercitationem voluptatibus dolores quas laboriosam. Praesentium.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod pariatur quaerat possimus voluptatem voluptates optio odit tempore adipisci, id accusamus consequatur soluta eveniet omnis exercitationem voluptatibus dolores quas laboriosam. Praesentium.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quasi, nulla illum doloribus quod numquam adipisci id quibusdam placeat quam tempora atque non ullam odio aspernatur dicta possimus error impedit.
+            </p>
         </article>
     </div>
-   </div>
+ 
    
   
     <aside>
@@ -42,7 +51,8 @@
         <img src="img/estudar-melhor.jpg" alt="Estudante" width="250px">
 
     </aside>
-    <footer class="flex-container column center">
+</div>
+    <footer class="flex-container column center gap">
 <ul class="flex-container">
     <li><a href="">Termos do site</a></li>
     <li><a target="_blank" href="">Saiba mais</a></li>
