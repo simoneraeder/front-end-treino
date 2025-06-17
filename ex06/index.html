@@ -54,10 +54,14 @@
 </div>
 <form class="flex-container column form" action="">
     <label for="name">Nome</label>
-    <input  type="text" id="name" required>
+    <input class="margin-botton" type="text" id="name" required>
     <label for="email">E-mail</label>
-    <input type="email" id="email" required>
-    <div>
+    <input class="margin-botton" type="email" id="email" required>
+    <label for="pwd">Senha</label>
+    <input class="margin-botton" type="password" id="pwr" pattern=".{8,}" 
+    title="No mínimo oito caracteres" required>
+    
+    <div class="margin-botton">
         <label for="checkbox">Deseja receber novidades</label>
         <input type="checkbox" id="checkbox">
 
