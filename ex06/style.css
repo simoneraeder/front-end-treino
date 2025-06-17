@@ -87,12 +87,39 @@ color: rgb(79, 10, 207);
 
 
 }
+.nav-link:visited{
+	color: aqua;
+}
 .flex-container{
 	display: flex;
 	
 }
 .gap{
 	gap: 15px;
+}
+.card{
+	padding: 15px;
+	background-color: rgb(57, 137, 202);
+	border-radius: 10px;
+	margin: 10px 0;
+	color: aliceblue;
+}
+.card h1{
+	font-size: larger;
+	margin-bottom: 10px;
+}
+.card h1::before{
+content: ' - '
+}
+.card h1::after{
+	content: ' - '
+	}
+.card p::first-line{
+	color: rgb(255, 0, 0);
+}
+.card h1::first-letter{
+	color: crimson;
+	font-size: larger;
 }
 .column{
 	flex-direction: column;
