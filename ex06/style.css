@@ -75,11 +75,21 @@ nav{
 }
 
 .nav-link {
-    color: rgb(5, 54, 94);
+    color: rgb(236, 229, 236);
+	transition:  ease 0.2s;
+	
+	
+}
+.nav-link:hover{
+text-decoration: overline;
+font-size: larger;
+color: rgb(79, 10, 207);
+
+
 }
 .flex-container{
 	display: flex;
-	gap: 15px;
+	
 }
 .gap{
 	gap: 15px;
