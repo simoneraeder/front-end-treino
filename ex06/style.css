@@ -100,6 +100,12 @@ nav{
 .margin.top{
 	margin-top: 20px;
 }
+.margin-bottom{
+	margin-top: 20px;
+}
+.form{
+	margin: 20px;
+}
 footer{
 	background-color: rgb(59, 11, 134);
 	padding: 20px 0 20px 0;
