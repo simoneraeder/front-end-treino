@@ -4,7 +4,7 @@ const input = document.getElementById('tarefaInput');
 const btn = document.getElementById ('adicionarBtn');
 const lista = document.getElementById("listaTarefas");
 
-btn.addEventListener('click', function () {
+btn.addEventListener('click', () => {
     const texto = input.value.trim()
   if(texto === ""){
     alert("Digitar uma tarefa!");
@@ -18,7 +18,7 @@ btn.addEventListener('click', function () {
   const btnRemover = document.createElement('button');
   btnRemover.textContent = "Remover";
   btnRemover.style.marginLeft = '8px';
-  btnRemover.addEventListener('click', function () {
+  btnRemover.addEventListener('click',  () => {
     lista.removeChild(item)
   })
 
